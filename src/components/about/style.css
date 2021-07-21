@@ -22,3 +22,10 @@
     list-style-type:disc;
     /* text-align: center; */
 }
+
+    .about-container > p {
+    color: black;
+    font-family:"Open Sans", sans-serif!important;
+    text-align: center!important;
+    font-weight: 600;
+}
