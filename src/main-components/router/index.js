@@ -9,7 +9,7 @@ const AllRoute = () => {
         <div className='App'>
             <Router>
                 <Switch>
-                    <Route exact path='/' component={HomePage} />
+                    <Route exact path='/Portfolio' component={HomePage} />
                     <Route path='/' component={ErrorPage} />
                 </Switch>
             </Router>
