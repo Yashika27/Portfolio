@@ -9,8 +9,8 @@ const AllRoute = () => {
         <div className='App'>
             <Router>
                 <Switch>
-                    <Route path='/Portfolio' component={HomePage} />
-                    <Route component={ErrorPage} />
+                    <Route exact path='/' component={HomePage} />
+                    <Route path='/' component={ErrorPage} />
                 </Switch>
             </Router>
         </div>
