@@ -10,7 +10,7 @@ const AllRoute = () => {
             <Router>
                 <Switch>
                     <Route exact path='/' component={HomePage} />
-                    <Route path='/' component={ErrorPage} />
+                    <Route path='*' component={ErrorPage} />
                 </Switch>
             </Router>
         </div>
